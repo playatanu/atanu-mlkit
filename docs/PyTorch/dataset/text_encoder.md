@@ -1,13 +1,15 @@
 # Text Encoder
 **TextEncoder** convert text into sequences for use with RNNs, LSTMs, and GRUs.
 
+#### TextEncoder
+
 ```python
 from collections.abc import Sequence
 from collections import Counter
 import torch
 from torch.nn.utils.rnn import pad_sequence
 
-class TextPreProcessor:
+class TextEncoder:
     def __init__(self, specials=["<unk>", "<pad>"], vocab=None,  preprocessor=None):
         """Initialize the TextProcessor with optional special tokens."""
         self.specials = specials
