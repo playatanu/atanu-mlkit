@@ -1,7 +1,7 @@
 # Text Encoder
-**TextEncoder** convert text into sequences for use with RNNs, LSTMs, and GRUs.
+Converts text into sequences for use with RNNs, LSTMs, and GRUs.
 
-#### TextEncoder
+#### Import
 
 ```python
 from atanu_mlkit.preprocessing import TextEncoder
