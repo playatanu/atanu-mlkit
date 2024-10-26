@@ -1,5 +1,7 @@
-site_name: Machine Learning
+site_name: Atanu MLKit
 site_description: Machine Learning with Python
+
+repo_url: https://github.com/playatanu/atanu-mlkit
 
 theme:
   name: material
@@ -9,12 +11,12 @@ theme:
     - scheme: slate
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: Switch to light mode
 
     - scheme: default
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to dark mode
 
 markdown_extensions:
   - pymdownx.highlight:

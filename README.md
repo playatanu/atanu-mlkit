@@ -1,6 +1,15 @@
-# Machine Learning Documentation Repository
+# Atanu MLKit
 
-Welcome to the Machine Learning Documentation Repository! This repo serves as a comprehensive guide to various machine learning concepts, techniques, algorithms, and projects. It’s designed to support learners and practitioners in building, understanding, and deploying machine learning models.
+Welcome to the **Atanu MLKit**!
+
+
+[![PyPI version](https://badge.fury.io/py/atanu-mlkit.svg)](https://badge.fury.io/py/atanu-mlkit)
+
+#### Quick Installation
+```bash
+pip install atanu-mlkit
+```
+
 
 
 
